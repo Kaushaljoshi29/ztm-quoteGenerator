@@ -27,7 +27,7 @@ A simple quote generator app build with vanila JS, applying basic DOM manipulato
 ### Links
 
 - Code : (https://github.com/Kaushaljoshi29/ztm-quoteGenerator) 
-- Live: (https://your-live-site-url.com)
+- Live: (https://kaushaljoshi29.github.io/ztm-quoteGenerator/)
 
 ## My process
 
