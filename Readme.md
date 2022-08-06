@@ -1,6 +1,6 @@
 # Quote Generator App
 
-This is a solution Simple quote generator app bulid as a part of ZTM javascript course. 
+This is a Simple quote generator app bulid as a part of ZTM javascript course. 
 
 ## Table of contents
 
