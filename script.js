@@ -8,20 +8,20 @@ const loader = document.getElementById("loader");
 let apiQuotes = [];
 
 // Show Loading
-function loading() {
+function showLoading() {
   loader.hidden = false;
   quoteContainer.hidden = true;
 }
 
 // Hide Loading
-function complete() {
+function hideLoading() {
   quoteContainer.hidden = false;
   loader.hidden = true;
 }
 
 // Show New Quote
 function newQuote() {
-  loading();
+  showLoading();
   // Pic a random quote from apiQuote array
   const quote = apiQuotes[Math.floor(Math.random() * apiQuotes.length)];
 
@@ -40,12 +40,12 @@ function newQuote() {
   }
   //Set quote, hide loader
   quoteText.textContent = quote.text;
-  complete();
+  hideLoading();
 }
 
 // Get quotes from API
 async function getQuotes() {
-  loading();
+  showLoading();
   const apiUrl = "https://type.fit/api/quotes";
 
   try {
